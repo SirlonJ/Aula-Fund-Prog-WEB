@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: grid;
+}
+
+header {
+	background-color: #012344;
+	margin-bottom: 5px;
+}
+
+.menu{
+	justify-content: center;
+	background-color: hsl(210, 97%, 14%);
+	padding: 10px;
+	
+}
+
+.menu ul li {
+	margin: 5px 50px 4px;
+}
+
+
+ul{
+	list-style-type: none; 
+ 
+}
+
+a,
+a.link{
+	text-decoration: none;
+	padding: 20px 20px;
+	color: white;
+}
+
+li{
+	float: left;
+	font-size: 20px;
+	font-family: 'Montserrat';
+	
+}
+
+a:hover{
+	background-color: white;
+	color: #012344;
+}
+
+
+footer{
+	margin-top: 5px;
+	background-color: #012344;
+	text-align: center;
+	color: white;
+	
+}
+
+
+/*Pagina de contato*/
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+element.style {
+    width: 600px;
+    height: 150px;
+}
+
+#formulario form {
+    text-align: center;
+    background-color: #012344;
+	color: white;
+	padding: 20px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+label {
+    display: inline-block;
+    width: 80px; /* Largura fixa para as etiquetas */
+    text-align: left; /* Alinha o texto à direita nas etiquetas */
+}
+
+label {
+    cursor: default;
+}
+
+.textarea {
+	width: 400px;
+	height: 150px;
+}
+
+.txt{
+	color: #012344;
+	text-align: center;
+	font-family: "montserrat";
+}
